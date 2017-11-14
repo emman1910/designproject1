@@ -1,0 +1,392 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	overflow-x: hidden;
+}
+body {
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+#navbar {
+	float: right;
+	padding-top: 18px;
+	position: relative;
+	left: -63px;
+}
+#navbar a {
+	float: left;
+	padding: 8px 10px;
+	text-decoration: none;
+	color: #000000;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 12px;
+}
+#navbar .home {
+	color: #00cccc;
+}
+#logo {
+	position: absolute;
+	left: 78px;
+	padding-top: 18px;
+	z-index: 1;
+}
+#logo img {
+	width: 30px;
+}
+#develop img {
+	max-width: 100%;
+	margin-top: -4%;
+}
+#develop {
+	float: right;
+}
+.header1 {
+	margin: -46% 0% 0% 61%;
+}
+.header1 h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: -1.5%;
+}
+.header1 p {
+	text-align: justify;
+	font-family: Arial;
+	line-height: 23px;
+}
+.contact {
+	background-color: #00cccc;
+	border: none;
+	padding: 13px 25px;
+	font-size: 10px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin-top: 3.5%;
+}
+.contact:hover {
+	opacity: 0.7;
+	cursor: pointer;
+	color: #000000;
+}
+/*==End of Header==*/
+#about {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 45px 0px 30px 0px;
+}
+#about h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#about p {
+	font-family: Arial;
+}
+/*==End of AboutUs==*/
+#professional {
+	background-color: #f2f2f2;
+	padding-bottom: 125px;
+}
+#progressivebar {
+	width: 41%;
+	margin-top: -25%;
+	margin-left: 4%;
+}
+#progressivebar h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#progressivebar p {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+.percent {
+	margin-left: 2%;
+}
+.progcontainer {
+	background-color: #8c8c8c;
+	width: 100%;
+}
+.uxdesign {
+	width: 75%;
+	height: 5px;
+	background-color: #00cccc;
+}
+.webdev {
+	width: 90%;
+	height: 5px;
+	background-color: #00cccc;
+}
+.market {
+	width: 65%;
+	height: 5px;
+	background-color: #00cccc;
+
+}
+#professional img {
+	height: 415px;
+	width: 49%;
+	margin-left: 49%;
+	border-radius: 50%;
+}
+/*==End of Professional==*/
+#stats {
+	background-color: #00cccc;
+	padding: 80px 0px 80px 10px;
+}
+#stats i {
+	color: #ffffff;
+	font-size: 45px;
+	font-weight: 90px;
+}
+#stats .statscontainer {
+	display: inline-block;
+	margin-left: 4%;
+	padding-right: 35px;
+}
+#stats .statscontainer .statsdetails {
+	margin-left: 70px;
+	margin-bottom: -52px;
+	line-height: 12px;
+}
+.statsdetails h2 {
+	font-size: 15px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #ffffff;
+}
+.statsdetails p {
+	font-size: 12px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: lighter;
+	color: #ffffff;
+}
+/*==End of Stats==*/
+#products {
+	margin-top: 4px;
+}
+#products .productsinside {
+	display: inline-block;
+	margin: -4px -4px 0px 0px;
+    width: 338px;
+}
+.product6 {
+	opacity: 0.2;
+	z-index: 0;
+	max-height: 282px;
+}
+.vleye {
+	width: 90px;
+	z-index: 1;
+	position: relative;
+	margin-top: -90%;
+	margin-bottom: 38%;
+	margin-left: 35%;
+}
+.loadmore {
+	background-color: #f2f2f2;
+	font-family: Impact, Charcoal, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	opacity: 0.6;
+	padding: 12px 12px;
+}
+.loadmore p:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+/*==End of Products==*/
+#workprocess {
+	padding: 50px 0px 55px 0px;
+}
+#workprocess h1 {
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#workprocess p {
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	opacity: 0.7;
+	padding: 0px 0px 40px 0px;
+}
+#workprocess .videobanner {
+	text-align: center;
+}
+#workprocess .videobanner img {
+	opacity: 0.3;
+	max-width: 81%;
+	z-index: 0
+}
+.play i {
+	font-size: 145px;
+	color: #00b3b3;
+}
+#workprocess .play {
+	z-index: 1;
+	margin-left: 46%;
+	margin-top: -23%;
+}
+
+/*==End of Workprocess==*/
+#icons {
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 21px 0px 40px 0px;
+}
+.iconinside .icondetails {
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.icondetails img {
+	opacity: 0.7;
+}
+.icondetails h1 {
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	opacity: 0.9;
+}
+.icondetails p {
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+	opacity: 0.6;
+}
+/*==End of Icons==*/
+#qoute {
+	background-color: #00cccc;
+	padding: 90px 0px 29px 0px;
+}
+#qoute p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 19px;
+	text-align: center;
+	color:  #ffffff;
+}
+#qoute h4 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color:  #ffffff;
+	padding-bottom: 50px;
+}
+.navigate {
+	text-align: center;
+}
+.navigate .dot, .dot2 {
+	display: inline-block;
+	margin-right: 4px;
+	border-radius: 50%;
+}
+.dot2 {
+	margin-bottom: -2px;
+}
+.navigate .dot, .dot2:hover {
+	cursor: pointer;
+}
+/*==End of Qoute==*/
+#moredesigns {
+	background-color: #ffffff;
+	padding-bottom: 3.5%;
+}
+.design1 {
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.design2 {
+	margin-left: 62%;
+	margin-top: -9.8%;
+}
+/*==End of Moredesigns==*/
+#needproject {
+	text-align: center;
+	background-color: #e6e6e6;
+	padding: 40px 0px 69px 0px;
+}
+[title~=top] {
+	padding: 10px 75px 10px 15px;
+	border: none;
+}
+[name="youremail"] {
+	margin-left: 1.5%;
+}
+[name="yourtitle"] {
+	padding: 10px 361px 10px 15px;
+	margin-left: -1px;
+	border: none;
+}
+[placeholder="Your Comment"] {
+	resize: none;
+	padding: 10px 375px 85px 15px;
+	border: none;
+}
+#needproject h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#needproject p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	padding-bottom: 15px;
+}
+[type="submit"] {
+	background-color: #00cccc;
+	border: none;
+	padding: 12px 12px;
+	color: #ffffff;
+	margin-top: 1.5%;
+}
+[type="submit"]:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+/*==End of Needproject==*/
+#pirolldesign {
+	background-color: #000000;
+	padding: 12px 0px 75px 10px;
+}
+.piroll {
+	color: #ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 7%;
+	margin-left: 6%;
+	opacity: 0.7;
+}
+.piroll h1 {
+	font-size: 19px;
+}
+.piroll p {
+	font-size: 15px;
+}
+.emailcontact {
+	color: #ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 35%;
+	margin-top: -6.3%;
+	opacity: 0.7;
+}
+.emailcontact h2 {
+	font-size: 17px;
+}
+.emailcontact h3{
+	font-size: 15px;
+}
+.projects {
+	color: #ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 59%;
+	margin-top: -5.1%;
+	opacity: 0.7;
+}
+.news {
+	color: #ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 69%;
+	margin-top: -6.8%;
+	opacity: 0.7;
+}
+.facebook {
+	color: #ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 85%;
+	margin-top: -6.6%;
+	opacity: 0.7;
+}
