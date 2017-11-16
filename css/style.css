@@ -13,7 +13,7 @@ body {
 	float: right;
 	padding-top: 18px;
 	position: relative;
-	left: -63px;
+	left: -85px;
 }
 #navbar a {
 	float: left;
@@ -73,6 +73,7 @@ body {
 	text-align: center;
 	background-color: #ffffff;
 	padding: 45px 0px 30px 0px;
+	margin-top: 56%;
 }
 #about h1 {
 	font-family: Verdana, Geneva, sans-serif;
@@ -194,7 +195,7 @@ body {
 }
 /*==End of Products==*/
 #workprocess {
-	padding: 50px 0px 55px 0px;
+	padding: 50px 0px 250px 0px;
 }
 #workprocess h1 {
 	text-align: center;
@@ -390,3 +391,4 @@ body {
 	margin-top: -6.6%;
 	opacity: 0.7;
 }
+/*==End of Footer==*/

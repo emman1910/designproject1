@@ -1,0 +1,341 @@
+/* For Tablet 768px or less */
+@media only screen and (max-width: 768px) {
+	#develop {
+		margin-top: -2.4%;
+	}
+	#navbar a {
+		font-size: 9px;
+	}
+	#logo img {
+		width: 20px;
+	}
+	.header1 {
+		font-size: 12px;
+		margin-left: 43%;
+	}
+	.header1 p {
+		line-height: 17px;
+	}
+	#develop .contact {
+		padding: 10px 20px;
+		font-size: 8px;
+	}
+	#about {
+		margin-top: 52.5%;
+		font-size: 12px;
+		padding-bottom: 0px;
+	}
+	#progressivebar {
+		margin-top: -30%;
+		font-size: 10px;
+	}
+	#professional img {
+		height: 250px;
+		width: 49%;
+	}
+	#professional {
+		padding-bottom: 41px;
+	}
+	#stats {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+	#stats i {
+		font-size: 30px;
+		line-height: 70px;
+	}
+	.statscontainer i {
+		margin-left: -60%;
+	}
+	#stats .statscontainer .statsdetails {
+		margin-bottom: -60px;
+	}
+	.statsdetails h2 {
+		font-size: 10px;
+	}
+	.statsdetails p {
+		font-size: 10px;
+	}
+	#products .productsinside {
+		width: 50%;
+		text-align: center;
+	}
+	.vleye {
+		margin-left: 3%;
+	}
+	#products .loadmore {
+		font-size: 12px;
+		padding: 8px 8px;
+	}
+	#workprocess {
+		font-size: 13px;
+		padding: 10px 0px 110px 0px;
+	}
+	.play i {
+		font-size: 110px;
+	}
+	#workprocess .play {
+		margin-top: -25%;
+	}
+	#qoute p {
+		font-size: 16px;
+	}
+	#qoute h4 {
+		font-size: 8px;
+	}
+	.design1 img {
+		width: 100%;
+	}
+	.design2 img {
+		width: 65%
+	}
+	#moredesigns {
+		line-height: 30px;
+		padding-bottom: 1px;
+	}
+	#moredesigns .design2 {
+		margin: auto;
+		display: block;
+	}
+	[name="yourtitle"] {
+		padding: 10px 323px 10px 15px;
+	}
+	[placeholder="Your Comment"] {
+		padding: 10px 304px 85px 15px;
+		margin-left: -2px;
+	}
+	[type="submit"] {
+		padding: 9px 9px;
+		font-size: 11px;
+	}
+	#pirolldesign  {
+		padding-bottom: 15px;
+	}
+	#pirolldesign .piroll {
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	#pirolldesign .emailcontact {
+		margin-left: 40%;
+		margin-top: -12%;
+	}
+	#pirolldesign .projects {
+		margin-left: 81%;
+		margin-top: -9.4%;
+	}
+	#pirolldesign .news {
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	#pirolldesign .facebook {
+		margin-left: 28%;
+		margin-top: -13%;
+	}
+}
+@media only screen and (max-width: 705px) {
+	#pirolldesign  {
+		padding-bottom: 15px;
+	}
+	#pirolldesign .piroll {
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	#pirolldesign .emailcontact {
+		margin-left: 45.5%;
+		margin-top: -13.5%;
+	}
+	#pirolldesign .projects {
+		margin-left: 86%;
+		margin-top: -10.2%;
+	}
+	#pirolldesign .news {
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	#pirolldesign .facebook {
+		margin-left: 28%;
+		margin-top: -14.5%;
+	}
+}
+@media only screen and (max-width: 690px) {
+	#professional {
+		padding-bottom: 46px;
+	}
+	#progressivebar {
+		margin-top: -34%;
+	}
+	#workprocess {
+		font-size: 13px;
+		padding: 10px 0px 95px 0px;
+	}
+	#pirolldesign  {
+		padding-bottom: 15px;
+	}
+	#pirolldesign .piroll {
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	#pirolldesign .emailcontact {
+		margin-left: 45.5%;
+		margin-top: -13.5%;
+	}
+	#pirolldesign .projects {
+		margin-left: 86%;
+		margin-top: -10.5%;
+	}
+	#pirolldesign .news {
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	#pirolldesign .facebook {
+		margin-left: 28%;
+		margin-top: -14.6%;
+	}
+}
+@media only screen and (max-width: 681px) {
+	#professional {
+		padding-bottom: 42px;
+	}
+	#progressivebar {
+		margin-top: -34%;
+	}
+	#pirolldesign  {
+		padding-bottom: 15px;
+	}
+	#pirolldesign .piroll {
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	#pirolldesign .emailcontact {
+		margin-left: 45.5%;
+		margin-top: -13.5%;
+	}
+	#pirolldesign .projects {
+		margin-left: 86%;
+		margin-top: -10.5%;
+	}
+	#pirolldesign .news {
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	#pirolldesign .facebook {
+		margin-left: 28%;
+		margin-top: -15%;
+}
+@media only screen and (max-width: 680px) {
+	#develop {
+		margin-top: -3%;
+	}
+	#progressivebar {
+		margin-top: -34%;
+	}
+	#workprocess {
+		font-size: 13px;
+		padding: 10px 0px 95px 0px;
+	}
+	#pirolldesign  {
+		padding-bottom: 15px;
+	}
+	#pirolldesign .piroll {
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	#pirolldesign .emailcontact {
+		margin-left: 45.5%;
+		margin-top: -13.5%;
+	}
+	#pirolldesign .projects {
+		margin-left: 86%;
+		margin-top: -10.5%;
+	}
+	#pirolldesign .news {
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	#pirolldesign .facebook {
+		margin-left: 28%;
+		margin-top: -15%;
+}
+@media only screen and (max-width: 630px) {
+	#develop {
+		margin-top: -3.5%;
+	}
+	#professional {
+		padding-bottom: 37px;
+	}
+	#progressivebar {
+		margin-top: -36%;
+	}
+	#workprocess .play {
+		margin-top: -27%;
+		margin-left: 42%;
+	}
+	#pirolldesign  {
+		padding-bottom: 15px;
+	}
+	#pirolldesign .piroll {
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	#pirolldesign .emailcontact {
+		margin-left: 45.5%;
+		margin-top: -14.8%;
+	}
+	#pirolldesign .projects {
+		margin-left: 86%;
+		margin-top: -11.2%;
+	}
+	#pirolldesign .news {
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	#pirolldesign .facebook {
+		margin-left: 28%;
+		margin-top: -16%;
+}
+@media only screen and (max-width: 600px) {
+	#develop {
+		margin-top: -3.6%;
+	}
+	#logo {
+		position: absolute;
+		left: 30px;
+	}
+	.header1 {
+		margin-left: 28%;
+	}
+	#progressivebar {
+		margin-top: -38%;
+	}
+	#professional {
+		padding-bottom: 40px;
+	}
+	#workprocess {
+		font-size: 13px;
+		padding: 8px 0px 80px 0px;
+	}
+	#pirolldesign  {
+		padding-bottom: 15px;
+	}
+	#pirolldesign .piroll {
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	#pirolldesign .emailcontact {
+		margin-left: 45.5%;
+		margin-top: -15.5%;
+	}
+	#pirolldesign .projects {
+		margin-left: 86%;
+		margin-top: -12%;
+	}
+	#pirolldesign .news {
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	#pirolldesign .facebook {
+		margin-left: 28%;
+		margin-top: -17%;
+}
