@@ -10,14 +10,30 @@
 		<title>Project 1</title>
 	</head>
 	<body>
+		<div id="res_btn" onclick="show_hide_nav('navbar')">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</div>
+		<script type="text/javascript">
+		var nav = false;
+		function show_hide_nav(id){
+		var navbar = document.getElementById(id);
+		if(nav == false){
+		navbar.style.display = "block";
+		nav = true;
+		}else{
+		navbar.style.display = "none";
+		nav = false;
+		}
+		}
+		</script>
 		<div id="navbar">
 			<a class="home" href="#home">HOME</a>
-			<a href="#about">ABOUT</a>
-			<a href="#work">WORK</a>
-			<a href="#process">PROCESS</a>
-			<a href="#services">SERVICES</a>
-			<a href="#testimonials">TESTIMONIALS</a>
-			<a href="#contact">CONTACT</a>
+			<a class="menu" href="#about">ABOUT</a>
+			<a class="menu" href="#work">WORK</a>
+			<a class="menu" href="#process">PROCESS</a>
+			<a class="menu" href="#services">SERVICES</a>
+			<a class="menu" href="#testimonials">TESTIMONIALS</a>
+			<a class="menu" href="#contact">CONTACT</a>
 		</div>
 		<div id="logo">
 			<img src="img/logo.png" alt="logo">
@@ -26,7 +42,7 @@
 			<img src="img/laptopheader.jpg">
 			<div class="header1">
 				<h1>We Design and Develop</h1>
-				<p>We are a new design studio based in USA. We have over<br>20 years of combined experience, and know a thing or two<br> about designing websites and mobile apps.</p>
+				<p class="headerp">We are a new design studio based in USA. We have over<br>20 years of combined experience, and know a thing or two<br> about designing websites and mobile apps.</p>
 				<button class="contact" type="text">CONTACT US</button>
 			</div>
 		</header>
@@ -52,6 +68,27 @@
 				<p>MARKETING <span class="percent">65%</span></p>
 				<div class="progcontainer">
 					<div class="market"></div>
+				</div>
+			</div>
+		</div>
+		<!--for mobile-->
+		<div id="professional2">
+			<div class="profimg">
+				<img src="img/professional.jpg" alt="professional">
+			</div>
+			<div class="progressivebar2">
+				<h1>Professional Skills</h1>
+				<p>UI/UX DESIGN <span class="percent">75%</span></p>
+				<div class="progcontainer2">
+					<div class="uxdesign2"></div>
+				</div>
+				<p>WEB DEVELOPMENT <span class="percent2">90%</span></p>
+				<div class="progcontainer2">
+					<div class="webdev2"></div>
+				</div>
+				<p>MARKETING <span class="percent">65%</span></p>
+				<div class="progcontainer2">
+					<div class="market2"></div>
 				</div>
 			</div>
 		</div>
@@ -105,7 +142,9 @@
 			</div>
 			<div class="productsinside" style="background-color: #262626">
 				<img class="product6" src="img/product6.png" alt="product6">
-				<img class="vleye" src="img/vleye.png" alt="vector line eye icon">
+				<div class="hide">
+					<img class="vleye" src="img/vleye.png" alt="vector line eye icon">
+				</div>
 			</div>
 			<div class="productsinside" style="background-color: #e6e6e6">
 				<img src="img/product7.jpg" alt="product7">
@@ -113,109 +152,159 @@
 			<div class="productsinside" style="background-color: #a6a6a6">
 				<img src="img/product8.jpg" alt="product8">
 			</div>
-			<div class="loadmore">
-				<p>LOAD MORE WORK</p>
+			<div class="eyeicon"> <!--for Mobile-->
+			<img class="vleye3" src="img/vleye.png" alt="vector line eye icon">
+		</div>
+		<div class="loadmore">
+			<p>LOAD MORE WORK</p>
+		</div>
+	</section>
+	
+	<!--For Mobile-->
+	<section id="products2">
+		<div class="productsinside2" style="background-color: #a6a6a6">
+			<img src="img/product1.png" alt="product1">
+		</div>
+		<div class="productsinside2" style="background-color: #e6e6e6">
+			<img src="img/product2.png" alt="product2">
+		</div>
+		<div class="productsinside2" style="background-color: #a6a6a6">
+			<img src="img/product3.png" alt="product3">
+		</div>
+		<div class="productsinside2" style="background-color:  #e6e6e6">
+			<img src="img/product4.jpg" alt="product4">
+		</div>
+		<div class="productsinside2" style="background-color: #e6e6e6">
+			<img src="img/product5.png" alt="product5">
+		</div>
+		<div class="productsinside2" style="background-color: #262626">
+			<img class="product62" src="img/product6.png" alt="product6">
+			<img class="vleye2" src="img/vleye.png" alt="vector line eye icon">
+		</div>
+		<div class="productsinside2" style="background-color: #e6e6e6">
+			<img src="img/product7.jpg" alt="product7">
+		</div>
+		<div class="productsinside2" style="background-color: #a6a6a6">
+			<img src="img/product8.jpg" alt="product8">
+		</div>
+		<div class="loadmore2">
+			<p>LOAD MORE WORK</p>
+		</div>
+	</section>
+	<!--End of Products-->
+	<section id="workprocess">
+		<div>
+			<h1>Our Work Process</h1>
+			<p>Was years it seasons was there form he in in them together over that,<br>third sixth gathered female creeping bearing behold years.</p>
+		</div>
+		<div class="videobanner">
+			<img src="img/videobanner.jpg" alt="elitehealth">
+		</div>
+		<div class="play">
+			<i class="fa fa-play-circle"></i>
+		</div>
+	</section>
+	<!--End of Workprocess-->
+	<section id="icons">
+		<div class="iconinside">
+			<div class="icondetails">
+				<img src="img/icon1.png" alt="icon1">
+				<h1>UI / UX DESIGN</h1>
+				<p>Be set fourth land God darkness<br>make it wherein own</p>
 			</div>
-		</section>
-		<!--End of Products-->
-		<section id="workprocess">
-			<div>
-				<h1>Our Work Process</h1>
-				<p>Was years it seasons was there form he in in them together over that,<br>third sixth gathered female creeping bearing behold years.</p>
+			<div class="icondetails">
+				<img src="img/icon2.png" alt="icon2">
+				<h1>WEB DEVELOPMENT</h1>
+				<p>A she'd them bring void moving<br>third she'd kind fill</p>
 			</div>
-			<div class="videobanner">
-				<img src="img/videobanner.jpg" alt="elitehealth">
+			<div class="icondetails">
+				<img src="img/icon3.png" alt="icon3">
+				<h1>APP / MOBILE</h1>
+				<p>Dominion man second spirit he,<br>earth they're creeping</p>
 			</div>
-			<div class="play">
-				<i class="fa fa-play-circle"></i>
+			<div class="icondetails">
+				<img src="img/icon4.png" alt="icon4">
+				<h1>GAME DESIGN</h1>
+				<p>Morning his saying moveth it<br>multiply appear life be</p>
 			</div>
-		</section>
-		<!--End of Workprocess-->
-		<section id="icons">
-			<div class="iconinside">
-				<div class="icondetails">
-					<img src="img/icon1.png" alt="icon1">
-					<h1>UI / UX DESIGN</h1>
-					<p>Be set fourth land God darkness<br>make it wherein own</p>
-				</div>
-				<div class="icondetails">
-					<img src="img/icon2.png" alt="icon2">
-					<h1>WEB DEVELOPMENT</h1>
-					<p>A she'd them bring void moving<br>third she'd kind fill</p>
-				</div>
-				<div class="icondetails">
-					<img src="img/icon3.png" alt="icon3">
-					<h1>APP / MOBILE</h1>
-					<p>Dominion man second spirit he,<br>earth they're creeping</p>
-				</div>
-				<div class="icondetails">
-					<img src="img/icon4.png" alt="icon4">
-					<h1>GAME DESIGN</h1>
-					<p>Morning his saying moveth it<br>multiply appear life be</p>
-				</div>
-				<br><br>
-				<div class="icondetails">
-					<img src="img/icon5.png" alt="icon5">
-					<h1>SEO / MARKETING</h1>
-					<p>Give won't after land fill creeping<br>meat you, may</p>
-				</div>
-				<div class="icondetails">
-					<img src="img/icon6.png" alt="icon6">
-					<h1>PHOTOGRAPHY</h1>
-					<p>Creepeth one seas cattle grass<br>give moving saw give</p>
-				</div>
-				<div class="icondetails">
-					<img src="img/icon7.png" alt="icon7">
-					<h1>GRAPHIC DESIGN</h1>
-					<p>Open, great whales air rule for,<br>fourth life whales</p>
-				</div>
-				<div class="icondetails">
-					<img src="img/icon8.png" alt="icon8">
-					<h1>ILLUSTRATIONS</h1>
-					<p>Whales likeness hath, man kind<br>for them air two won't</p>
-				</div>
+			<br><br>
+			<div class="icondetails">
+				<img src="img/icon5.png" alt="icon5">
+				<h1>SEO / MARKETING</h1>
+				<p>Give won't after land fill creeping<br>meat you, may</p>
 			</div>
-		</section>
-		<!--End of Icons-->
-		<section id="qoute">
-			<p>"Outstanding job and exceeded all expectations. It was a pleasure<br>to work with them on a sizable first project and am looking<br>forward to start the next one asap."</p>
-			<h4>MICHAEL HOPKINS</h4>
-			<div class="navigate">
-				<div class="dot" style="width: 7px; height: 7px; background-color: #d9d9d9"></div>
-				<div class="dot2" style="width: 11px; height: 11px; background-color: #ffffff;"></div>
-				<div class="dot" style="width: 7px; height: 7px; background-color: #d9d9d9"></div>
+			<div class="icondetails">
+				<img src="img/icon6.png" alt="icon6">
+				<h1>PHOTOGRAPHY</h1>
+				<p>Creepeth one seas cattle grass<br>give moving saw give</p>
 			</div>
-		</section>
-		<!--End of Qoute-->
-		<section id="moredesigns">
-			<div class="design1">
-				<img src="img/moredesigns.png" alt="moredesigns1">
+			<div class="icondetails">
+				<img src="img/icon7.png" alt="icon7">
+				<h1>GRAPHIC DESIGN</h1>
+				<p>Open, great whales air rule for,<br>fourth life whales</p>
 			</div>
-			<div class="design2">
-				<img src="img/moredesigns2.png" alt="moredesigns2">
+			<div class="icondetails">
+				<img src="img/icon8.png" alt="icon8">
+				<h1>ILLUSTRATIONS</h1>
+				<p>Whales likeness hath, man kind<br>for them air two won't</p>
 			</div>
-		</section>
-		<!--End of Moredesigns-->
-		<section id="needproject">
-			<h1>Need a Project?</h1>
-			<p>Let us know what you're looking for in an agency. We'll take a look and see<br>if this could be the start of something beatiful.</p>
-			<div>
+		</div>
+	</section>
+	<!--End of Icons-->
+	<section id="qoute">
+		<p>"Outstanding job and exceeded all expectations. It was a pleasure<br>to work with them on a sizable first project and am looking<br>forward to start the next one asap."</p>
+		<h4>MICHAEL HOPKINS</h4>
+		<div class="navigate">
+			<div class="dot" style="width: 7px; height: 7px; background-color: #d9d9d9"></div>
+			<div class="dot2" style="width: 11px; height: 11px; background-color: #ffffff;"></div>
+			<div class="dot" style="width: 7px; height: 7px; background-color: #d9d9d9"></div>
+		</div>
+	</section>
+	<!--End of Qoute-->
+	<section id="moredesigns">
+		<div class="design1">
+			<img src="img/moredesigns.png" alt="moredesigns1">
+		</div>
+		<div class="design2">
+			<img src="img/moredesigns2.png" alt="moredesigns2">
+		</div>
+	</section>
+	<!--End of Moredesigns-->
+	<section id="needproject">
+		<h1>Need a Project?</h1>
+		<p>Let us know what you're looking for in an agency. We'll take a look and see<br>if this could be the start of something beatiful.</p>
+		<div>
 			<input title="top" type="text" name="yourname" placeholder="Your Name"> <input title="top" type="text" name="youremail" placeholder="Your Email"><br><br>
 			<input type="text" name="yourtitle" placeholder="Your Title"><br><br>
 			<textarea placeholder="Your Comment"></textarea><br>
 			<button type="submit">SEND MESSAGE</button>
+		</div>
+	</section>
+	<!--For Mobile-->
+	<section id="needproject2">
+		<div class="npinside">
+			<h1>Need a Project?</h1>
+			<p>Let us know what you're looking for in an agency. We'll take a look and see<br>if this could be the start of something beatiful.</p>
+			<div>
+				<input title="top" type="text" name="yourname2" placeholder="Your Name"><br><br><input title="top" type="text" name="youremail2" placeholder="Your Email"><br><br>
+				<input type="text" name="yourtitle2" placeholder="Your Title"><br><br>
+				<textarea title="yourcomment2" placeholder="Your Comment"></textarea><br>
+				<button title="submit2" type="submit">SEND MESSAGE</button>
 			</div>
-		</section>
-		<!--End of Needproject-->
-		<footer id="pirolldesign">
-			<div class="piroll">
-				<h1>Piroll Design, Inc.</h1>
-				<p>&copy 2017 Piroll. All rights reserved.<br>Designed by robirurk.</p>
-			</div>
+		</div>
+	</section>
+	<!--End of Needproject-->
+	<footer id="pirolldesign">
+		<div class="piroll">
+			<h1>Piroll Design, Inc.</h1>
+			<p>&copy 2017 Piroll. All rights reserved.<br>Designed by robirurk.</p>
+		</div>
+		<div class="footeradjust">
 			<div class="emailcontact">
 				<h2>hello@pirolltheme.com</h2>
 				<h3>+44 987 065 908</h3>
 			</div>
+			<div class="footeradjust2">
 			<div class="projects">
 				<p>Projects<br>About<br>Services<br>Carreer</p>
 			</div>
@@ -225,6 +314,30 @@
 			<div class="facebook">
 				<p>Facebook<br>Twitter<br>Instagram<br>Dribble</p>
 			</div>
-		</footer>
-	</body>
+			</div>
+		</div>
+	</footer>
+	<!--for Mobile-->
+	<footer id="pirolldesign2">
+		<div class="footerref">
+			<div class="piroll2">
+				<h1>Piroll Design, Inc.</h1>
+				<p>&copy 2017 Piroll. All rights reserved.<br>Designed by robirurk.</p>
+			</div>
+			<div class="emailcontact2">
+				<h2>hello@pirolltheme.com</h2>
+				<h3>+44 987 065 908</h3>
+			</div>
+			<div class="projects2">
+				<p>Projects<br>About<br>Services<br>Carreer</p>
+			</div>
+			<div class="news2">
+				<p>News<br>Events<br>Contact<br>Legals</p>
+			</div>
+			<div class="facebook2">
+				<p>Facebook<br>Twitter<br>Instagram<br>Dribble</p>
+			</div>
+		</div>
+	</footer>
+</body>
 </html>

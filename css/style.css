@@ -9,6 +9,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
+#res_btn {
+	float: right;
+	display: none;
+}
 #navbar {
 	float: right;
 	padding-top: 18px;
@@ -82,6 +86,9 @@ body {
 	font-family: Arial;
 }
 /*==End of AboutUs==*/
+#professional2 {
+	display: none;
+}
 #professional {
 	background-color: #f2f2f2;
 	padding-bottom: 125px;
@@ -160,6 +167,9 @@ body {
 	color: #ffffff;
 }
 /*==End of Stats==*/
+#products2 {
+	display: none;
+}
 #products {
 	margin-top: 4px;
 }
@@ -173,6 +183,9 @@ body {
 	z-index: 0;
 	max-height: 282px;
 }
+.eyeicon {
+		display: none;
+	}
 .vleye {
 	width: 90px;
 	z-index: 1;
@@ -298,6 +311,9 @@ body {
 	margin-top: -9.8%;
 }
 /*==End of Moredesigns==*/
+#needproject2 {
+	display: none;
+}
 #needproject {
 	text-align: center;
 	background-color: #e6e6e6;
@@ -340,6 +356,9 @@ body {
 	opacity: 0.7;
 }
 /*==End of Needproject==*/
+#pirolldesign2 {
+	display: none;
+}
 #pirolldesign {
 	background-color: #000000;
 	padding: 12px 0px 75px 10px;
